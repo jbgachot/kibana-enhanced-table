@@ -33,7 +33,7 @@
   </div>
 
   <div ng-if="hasSomeRows" class="table-vis-container" ng-class="tableVisContainerClass" data-test-subj="tableVis">
-    <kbn-enhanced-agg-table-group
+    <osd-enhanced-agg-table-group
       filter="vis.API.events.filter"
       group="tableGroups"
       export-title="visState.title"
@@ -46,6 +46,6 @@
       csv-encoding="visState.params.csvEncoding || 'utf-8'"
       field-columns="visState.params.fieldColumns">
 
-    </kbn-enhanced-agg-table-group>
+    </osd-enhanced-agg-table-group>
   </div>
 </div>

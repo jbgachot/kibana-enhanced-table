@@ -20,8 +20,8 @@
 import _ from 'lodash';
 import { RequestAdapter, DataAdapter } from '../../../../src/plugins/inspector/public';
 import { getSearchService, getQueryService } from '../services';
-import { handleCourierRequest } from './kibana_cloned_code/courier';
-import { serializeAggConfig } from './kibana_cloned_code/utils';
+import { handleCourierRequest } from './opensearch_dashboards_cloned_code/courier';
+import { serializeAggConfig } from './opensearch_dashboards_cloned_code/utils';
 
 export async function enhancedTableRequestHandler ({
   partialRows,

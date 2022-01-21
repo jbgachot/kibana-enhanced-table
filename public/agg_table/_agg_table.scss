@@ -1,9 +1,9 @@
-kbn-enhanced-agg-table,
-kbn-enhanced-agg-table-group {
+osd-enhanced-agg-table,
+osd-enhanced-agg-table-group {
   display: block;
 }
 
-.striped-rows .kbnAggTable__paginated {
+.striped-rows .osdAggTable__paginated {
   tr:nth-child(odd) td {
     background-color: lighten($euiColorLightestShade, 2%);
   }
